@@ -1,35 +1,68 @@
 [
     {
-        "name": "Justin's Desktop"
+        "name": "Justin's Desktop",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "Justin's Laptop"
+        "name": "Justin's Laptop",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "Justin's Phone"
+        "name": "Justin's Phone",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "Toaster"
+        "name": "Toaster",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "Windmill"
+        "name": "Windmill",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "ATM"
+        "name": "ATM",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "Coffee Machine"
+        "name": "Coffee Machine",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "Mainframe"
+        "name": "Mainframe",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "Pizzabox"
+        "name": "Pizzabox",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "That guys box"
+        "name": "That guys box",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     },
     {
-        "name": "Mothership"
+        "name": "Mothership",
+        "user": "justin.doherty",
+        "ip": "127.0.0.1",
+        "fqdn": "justindoherty.com"
     }
 ]

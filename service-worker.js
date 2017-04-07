@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["assets/icons/swi.png","2178f544d502cef116e4f1afb346defa"],["assets/icons/swi_256.png","f31acbd18dd37f89a3c92c1bb2577aec"],["index.html","9c6a03ba694b5378eabcc886ee029e88"],["inline.1c509da9fe3bbf194ae0.bundle.js","b40b6343ed01ae58ef8dfa79a7ba3f2a"],["main.875bc28758fb87516206.bundle.js","7c324a1a26a40c2a34efea298cec0f75"],["polyfills.2d45a4c73c85e24fe474.bundle.js","c639899f82718c6d2ba28563b7915166"],["styles.0a91e61b79740d33d85c.bundle.css","0a91e61b79740d33d85c5d86436b1b1e"],["vendor.5d2571ae606e1dde763f.bundle.js","4e1815323d8542195f84929d4b5450f5"]];
+var precacheConfig = [["assets/icons/swi.png","2178f544d502cef116e4f1afb346defa"],["assets/icons/swi_256.png","f31acbd18dd37f89a3c92c1bb2577aec"],["index.html","d35a54107ee0d41c95b482897072d1f5"],["inline.ee2f881324dcd916d6ed.bundle.js","1f8edac66425141b36f2596df216535c"],["main.19b4a81008f4312f3372.bundle.js","f62d85eb015a0a1f6d97ebaa1dee35c3"],["polyfills.2d45a4c73c85e24fe474.bundle.js","c639899f82718c6d2ba28563b7915166"],["styles.529bbacf7d1dfbda129f.bundle.css","529bbacf7d1dfbda129f1f758170dd3d"],["vendor.05fd8180eff8d959a340.bundle.js","dd4a45136acb6807493f16b063e80f50"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -284,6 +284,7 @@ self.addEventListener('fetch', function(event) {
 // Runtime cache configuration, using the sw-toolbox library.
 
 toolbox.router.get(/data/, toolbox.networkFirst, {});
+toolbox.router.get(/fonts\.googleapis\.com/, toolbox.networkFirst, {});
 
 
 
