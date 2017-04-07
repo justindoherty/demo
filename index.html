@@ -4,7 +4,7 @@
 <head>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+      navigator.serviceWorker.register('service-worker.js').then(function (registration) {
         // Registration was successful
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
       }).catch(function (err) {
@@ -19,7 +19,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="manifest.json">
 <link href="styles.0a91e61b79740d33d85c.bundle.css" rel="stylesheet"/></head>
 
 <body>
